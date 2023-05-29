@@ -120,7 +120,7 @@ btn_right.grid(row=1, column=2, padx=10, pady=10)
 btn_emergencyStop = tk.Button(window, text="EMERGENCY STOP", relief="raised", bg="red", fg="white", command=emergency_stop)
 btn_emergencyStop.pack(pady=10)
 
-# Crear los requerimientos al lado del botón "Derecha"
+
 requirements_frame = tk.Frame(button_frame)
 requirements_frame.grid(row=1, column=3, padx=10, pady=10)
 
